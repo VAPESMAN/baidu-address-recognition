@@ -6,9 +6,9 @@
 from aip import AipNlp
 
 # 你的百度AI凭证
-APP_ID = '122588652'
-API_KEY = 'hNTTv9eY11Yys1IVq7EdlaFL'
-SECRET_KEY = 'FwE4jMr7Kuwj7HdtxJnWXAMvCOB26GgB'
+APP_ID = 'your appid'  
+API_KEY = 'your api_key'
+SECRET_KEY = 'your secret_key'
 
 # 创建客户端
 client = AipNlp(APP_ID, API_KEY, SECRET_KEY)
